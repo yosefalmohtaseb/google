@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: arial, sans-serif;
+  overflow: hidden;
+  color: white;
 }
 
 body {
@@ -27,6 +29,8 @@ header nav div {
 header nav div img {
   height: 25px;
   width: 25px;
+  margin-right: 10px;
+
 }
 
 header nav div svg {
@@ -46,6 +50,7 @@ header nav div svg {
 /* main */
 
 .main-content {
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -58,14 +63,14 @@ header nav div svg {
   background: #202124;
   border: 1px solid #5f6368;
   border-radius: 40px;
-  width: 45vw;
   margin-top: 35px;
   align-items: center;
   justify-content: space-between;
+  width: 500px;
   
 }
 .search-bar:hover {
-  background-color: #515151;
+  background-color: #303130;
 }
  input {
   all: unset;
@@ -83,4 +88,34 @@ svg {
 .last-div {
   margin-left:auto;
   
+}
+.btn-div{
+  margin-top: 3vh;
+}
+button{
+  all: unset;
+  color: white;
+  background-color: #303134;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: 1 solid #202124;
+}
+button:hover{
+  border: 1px solid #303130
+}
+.ads-div{
+  margin-top: 1.7rem;
+}
+.ads-div span{
+  color: #8ab4f8;
+}
+
+.ads-div span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+footer{
+  position: absolute;
+  bottom: 0;
 }
