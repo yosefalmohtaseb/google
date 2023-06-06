@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: arial, sans-serif;
 }
 
 body {
@@ -20,7 +21,6 @@ header nav {
 
 header nav div {
   color: white;
-  font-family: arial, sans-serif;
   padding: 12px;
 }
 
@@ -38,6 +38,49 @@ header nav div svg {
   text-decoration: underline;
   cursor: pointer;
 }
-.nav-img:hover{
-    background-color: #515151;
+.nav-img:hover {
+  background-color: #515151;
+  border-radius: 30px;
+}
+
+/* main */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  min-height: 44px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  border-radius: 40px;
+  width: 45vw;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.search-bar:hover {
+  background-color: #515151;
+}
+ input {
+  all: unset;
+  color: white;
+  padding: 5px;
+ }
+.f-d {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+svg {
+  margin: 5px;
+}
+.last-div {
+  margin-left:auto;
+  
 }
